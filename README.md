@@ -7,10 +7,10 @@ Kudos to @fgrehm.
 
 ## TL;DR: how to use it
 
-### Build the image if you don't trust the pullable one
-
-    $ sudo docker build -t batmat/eclipse
-
 ### Run it
 
-    $ sudo docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix batmat/eclipse
+    $ sudo docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix batmat/docker-eclipse
+
+### Build the image if you don't trust the pullable one
+
+    $ sudo docker build -t batmat/docker-eclipse
